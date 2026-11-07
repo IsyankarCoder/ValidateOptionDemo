@@ -1,0 +1,11 @@
+@ValidateOptionDemo_HostAddress = http://localhost:5133
+
+GET {{ValidateOptionDemo_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{ValidateOptionDemo_HostAddress}}/todos/1
+Accept: application/json
+
+###
